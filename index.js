@@ -43,7 +43,7 @@ document.querySelector(".reload").addEventListener("click", () => {
 				(ability) => !ability.is_hidden
 			);
 
-			for (let i = 0; i < normalAbility.length; ++i) {
+			for (let i = 0; i < normalAbility.length; i++) {
 				pokemonData.abilityList.querySelectorAll(".ability")[
 					i
 				].textContent = toTitleCase(normalAbility[i].ability.name);
