@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="images/favicon.svg"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		<title>Random Pokemon Generator</title>
+	</head>
+	<body>
+		<main class="main">
+			<h4 class="id">Pokemon#<span></span></h4>
+			<div class="title">
+				<h1 class="name"></h1>
+				<h4 class="category"></h4>
+				<img class="portrait" src="" alt="" />
+			</div>
+			<div class="type">
+				<h2 class="type-title">Type:</h2>
+				<p class="type-text"><strong></strong></p>
+			</div>
+			<div class="size">
+				<div class="weight">
+					<h2>Weight</h3>
+					<p><span></span> kg</p>
+				</div>
+				<div class="height">
+					<h2>Height</h3>
+					<p><span></span> m</p>
+				</div>
+			</div>
+			<div class="abilities">
+				<h2 class="ability-title">Abilities:</h3>
+				<ul class="ability-list">
+                    <li class="ability-class"><span>Normal Abilities:</span></li>
+					<li class="ability"></li>
+					<li class="ability"></li>
+					<li class="ability"></li>
+                    <li class="ability-class"><span>Hidden Ability:</span><span class="ability0"></span></li>
+				</ul>
+			</div>
+			<div class="first-appear">
+				<h2 class="first-appear-title">First Appearance:</h3>
+				<p class="first-appear-text">
+					Generation <span class="gen"></span>
+				</p>
+			</div>
+			<div class="btn"><button class="reload">Generate New Card</button></div>
+		</main>
+		<footer class="credits">
+			© API created by Paul Hallett and other PokéAPI contributors around the world. Pokémon and Pokémon character names are trademarks of Nintendo.
+		</footer>
+		<script src="index.js"></script>
+	</body>
+</html>
